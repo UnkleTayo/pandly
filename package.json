@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "rm -rf node_modules && node index",
     "dev": "nodemon index"
   },
   "keywords": [],
